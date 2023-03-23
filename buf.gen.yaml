@@ -1,0 +1,15 @@
+version: v1
+managed:
+  enabled: false
+plugins:
+  - plugin: buf.build/protocolbuffers/go
+    out: .
+
+  - plugin: buf.build/grpc/go
+    out: .
+
+  - name: go-http
+    out: .
+
+  - name: go-errors
+    out: .
