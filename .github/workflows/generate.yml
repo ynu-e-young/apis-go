@@ -4,6 +4,7 @@ on:
   push:
     tags: [ 'v*.*.*' ]
   workflow_dispatch:
+  repository_dispatch:
 
 jobs:
   trigger:
