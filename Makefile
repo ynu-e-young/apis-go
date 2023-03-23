@@ -4,7 +4,7 @@
 init:
 	go install github.com/go-kratos/kratos/cmd/protoc-gen-go-errors/v2@latest
 	go install github.com/go-kratos/kratos/cmd/protoc-gen-go-http/v2@latest
-	cd api && buf mod update
+	buf mod update
 
 # generate protobuf api go code
 api:
